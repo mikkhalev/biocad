@@ -1,0 +1,41 @@
+body {
+	padding: 0px;
+	margin: 0px; 
+}
+.wrapper {
+	margin-right: 400px;
+	margin-left: 400px;
+	font-family: TT Norms;
+	padding: 30px 50px;
+}
+
+/* Простенький адаптив */
+@media(max-width: 1713px) {
+	.wrapper {
+		margin-right: 300px;
+		margin-left: 300px;
+		font-family: TT Norms;
+		padding: 30px 50px;
+	}
+}
+
+@media(max-width: 1490px) {
+	.wrapper {
+		margin-right: 200px;
+		margin-left: 200px;
+	}
+}
+@media(max-width: 1244px) {
+	.wrapper {
+		margin-right: 100px;
+		margin-left: 100px;
+	}
+}
+
+@media(max-width: 1060px) {
+	.wrapper {
+		margin-right: 0px;
+		margin-left: 0px;
+		padding: 15px 15px;
+	}
+}

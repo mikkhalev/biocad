@@ -1,0 +1,175 @@
+.calibration{
+	margin-top: 46px;
+	padding: 40px 20px 60px 40px;
+	width: 100%;
+	height: auto;
+
+	background: #FFFFFF;
+
+	border: 1px dashed #939DA6;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.calibration__table{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+.calibration__title{
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+}
+.table-column{
+	width: auto;
+	margin-top: 27px;
+}
+.column__title{
+	font-size: 13px;
+	line-height: 15px;
+
+	color: #939DA6;
+	margin-bottom: 37px;
+}
+.high-title{
+	margin-bottom: 22px;
+}
+.line{
+	background-color: #E9E9E9;
+	height: 1px;
+	width: 100%;
+}
+.a{
+	margin-top: 60px;
+}
+.u{
+	margin-top: 86px;
+}
+.b{
+	margin-top: 15px;
+}
+.s{
+	margin-top: 80px;
+}
+.data__info{
+	height: 40px;
+
+	font-size: 16px;
+	line-height: 19px;
+
+	color: #353535;
+
+	margin-top: 20px;
+
+	letter-spacing: 0.072em;
+}
+.buffer__info{
+	width: 240px;
+
+	font-size: 13px;
+	line-height: 15px;
+
+	color: #353535;
+
+	letter-spacing: 0.01em;
+	line-height: 17px;
+
+	margin-top: 20px;
+}
+.slope__info{
+	display: flex;
+	font-size: 13px;
+	line-height: 15px;
+
+	color: #353535;
+
+	margin-top: 20px;
+}
+.slope__info > img{
+	margin-right: 53px;
+	position: relative;
+	bottom: 2px;
+}
+.slope-percent{
+	width: 50px;
+	height: 20px;
+}
+.user__info{
+	margin-top: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+
+	color: #353535;
+}
+
+.data{
+	width: 15%;
+}
+
+.buffer{
+	width: 30%;
+}
+
+.slope {
+	width: 15%;
+}
+.offset {
+	width: 15%;
+}
+
+.user{
+	width: 25%;
+}
+@media(max-width: 770px) {
+	.buffer{
+		display: none;
+	}
+	.slope-percent{
+		display: none;
+	}
+	.data{
+		width: 25%;
+	}
+	.slope {
+		width: 20%;
+	}
+	.offset {
+		width: 20%;
+	}
+	.user{
+		width: 25%;
+	}
+	.a{
+		margin-top: 56px;
+	}
+	.u{
+		margin-top: 82px;
+	}
+}
+@media(max-width: 680px) {
+	.u{
+		margin-top: 68px;
+	}
+}
+@media(max-width: 502px) {
+	.user{
+		display: none;
+	}
+	.data{
+		width: 40%;
+	}
+	.slope {
+		width: 30%;
+	}
+	.offset {
+		width: 30%;
+	}
+}
+@media(max-width: 365px) {
+	.high-title{
+		margin-bottom: -13px;
+	}
+}
